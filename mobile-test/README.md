@@ -19,7 +19,8 @@ Create a simple mobile app (in Swift for iOS or Kotlin for Android) that fetches
 3. **UI - Second Screen**:
     - The second screen should contain:
         - The product name as the title.
-        - A button to return you to the first screen.
+        - The ability to return to the first screen
+            - Use native controls as best as possible to achieve this.
         - Details of the product selected -- This can either be passed in from the first screen or retrieved from the following API `https://dummyjson.com/products/<productId>`
             - Please include:
                 - the image of the product from the API response
