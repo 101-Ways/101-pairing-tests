@@ -8,44 +8,37 @@ Create a simple mobile app (in Swift for iOS or Kotlin for Android) that fetches
 ## Tasks:
 
 1. **Set Up the Project**:
-    - Create a new mobile project (iOS or Android) with a single page containing a button.
+    - Create a new mobile project
+        - Use Swift (iOS) or Kotlin (Android).
+    - Use any tools you usually would for code quality, linting, formatting, testing etc.
 
-2. **API Call**:
-    - Make a GET request to the `https://dummyjson.com/products` API.
-    - Parse the response, specifically fetching the title of the first product in the response.
-
-3. **UI - Main Screen**:
-    - The main screen should contain:
-        - A title: "Product Viewer"
-        - A button labeled: "Fetch Product"
-
-4. **Navigation**:
-    - When the button is clicked:
-        - Fetch the data from the API.
-        - Navigate to a second screen.
-
-5. **UI - Second Screen**:
-    - The second screen should display the title of the first product received from the API.
+2. **UI - First Screen**:
+    - The first screen should contain:
+        - A title: "Our Products"
+        - A list of products generated from the `https://dummyjson.com/products` API.
+        - These should all be individually clickable buttons that take you to the second screen detailed below
+     
+3. **UI - Second Screen**:
+    - The second screen should contain:
+        - A title: <the product name>
+        - Details of the product selected -- This can either be passed in from the first screen or retrieved from the following API 'https://dummyjson.com/products/<productId>'
+            - Please include:
+                - the image of the product from the API response
+                - a description of the product
+                - The price of the product
+                - The shipping information for the product
+                - A button to add the product to a basket.
 
 ---
 
 ## Bonus Tasks:
 
 1. **Loading Indicator**:
-    - Show a loading indicator when the API call is in progress.
+    - Show a loading indicator when any API call is in progress.
 
 2. **Error Handling**:
-    - Display an alert if the API call fails, with a retry option.
+    - Display a toast message if any API call fails, with a retry option.
 
 3. **UI Enhancements**:
-    - Display more product details (such as price or description) on the second screen.
+    - Display reviews on the second screen.
     - Improve the layout with additional styling and visual elements.
-
----
-
-## Requirements:
-
-- Use Swift (iOS) or Kotlin (Android).
-- Fetch data from the API endpoint: `https://dummyjson.com/products`.
-- Display the first product's title on a new screen after the button is pressed.
-- Provide basic navigation between screens.
