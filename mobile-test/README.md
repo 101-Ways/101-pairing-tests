@@ -1,5 +1,5 @@
 ## Overview:
-Create a simple mobile app (in Swift for iOS or Kotlin for Android) that fetches data from an external API and displays it on a second screen when a button is clicked. The goal is to evaluate basic mobile development skills, including API calls, navigation, and UI handling.
+Create a simple mobile app (in Swift for iOS or Kotlin for Android) that fetches product data from an external API and displays details for those products on a second screen when clicked. The goal is to evaluate basic mobile development skills, including API calls, navigation and UI handling.
 
 ---
 
