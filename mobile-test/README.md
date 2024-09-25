@@ -21,7 +21,7 @@ Create a simple mobile app (in Swift for iOS or Kotlin for Android) that fetches
 3. **UI - Second Screen**:
     - The second screen should contain:
         - A title: <the product name>
-        - Details of the product selected -- This can either be passed in from the first screen or retrieved from the following API 'https://dummyjson.com/products/<productId>'
+        - Details of the product selected -- This can either be passed in from the first screen or retrieved from the following API `https://dummyjson.com/products/<productId>`
             - Please include:
                 - the image of the product from the API response
                 - a description of the product
