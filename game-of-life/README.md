@@ -17,4 +17,4 @@ Requirement Cards:
 
 6. An empty cell with exactly 3 live neighbours "comes to life"
 
-7. The board should wrap
+7. The board should wrap if using a fixed grid or the grid needs to be infinite in size
