@@ -25,17 +25,17 @@ Incorrect guesses left: 6
 
 > Guess a letter: x
 
-Hidden word: _ _ e _ _  
+Hidden word: _ e _ _ _  
 Incorrect guesses left: 5  
 
 > Guess a letter: l
 
-Hidden word: _ l e _ _  
+Hidden word: _ e l l _  
 Incorrect guesses left: 5  
 
 > Guess a letter: h
 
-Hidden word: h l e _ _  
+Hidden word: h e l l _  
 Incorrect guesses left: 5  
 
 > Guess a letter: l (already guessed)
@@ -44,7 +44,7 @@ Invalid input. Try again.
 
 > Guess a letter: o
 
-Hidden word: h l e l o  
+Hidden word: h e l l o  
 Congratulations! You guessed the word.
 ```
 
