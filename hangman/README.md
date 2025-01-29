@@ -20,7 +20,7 @@ Incorrect guesses left: 6
 
 > Guess a letter: e
 
-Hidden word: _ _ e _ _  
+Hidden word: _ e _ _ _  
 Incorrect guesses left: 6  
 
 > Guess a letter: x
