@@ -78,3 +78,19 @@ hangman()
 - The player is prompted to guess letters.
 - The game displays feedback after each guess.
 - The game ends when the player wins or reaches the max incorrect attempts.
+
+## 📌 Testing
+To ensure the game functions correctly, consider testing the following scenarios:
+
+### ✅ Functional Tests
+- Correctly displays the hidden word at the start.
+- Correctly updates the word as letters are guessed.
+- Handles correct and incorrect guesses appropriately.
+- Ends the game when the word is fully guessed or max attempts are reached.
+
+### ⚠️ Edge Cases
+- **Repeated guesses:** The game should not penalize the player for guessing the same letter twice.
+- **Non-alphabetic input:** Reject numbers, special characters, and empty input.
+- **Case sensitivity:** Ensure the game treats uppercase and lowercase letters identically.
+- **Short and long words:** Ensure the game handles words of different lengths correctly.
+
