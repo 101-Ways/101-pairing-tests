@@ -4,7 +4,7 @@
 
 **Hangman** is a classic word-guessing game where players attempt to guess a hidden word by suggesting letters. If the player makes too many incorrect guesses, they lose the game.
 
-More more details, please refer to [Wikipedia](<https://en.wikipedia.org/wiki/Hangman_(game)>).
+For more details, please refer to [Wikipedia](<https://en.wikipedia.org/wiki/Hangman_(game)>).
 
 ## Task Description
 
